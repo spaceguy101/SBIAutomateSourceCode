@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "482312117677",
+    "firebase_url": "https://sbi-automate.firebaseio.com",
+    "project_id": "sbi-automate",
+    "storage_bucket": "sbi-automate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482312117677:android:80e2a943434d2a62",
+        "android_client_info": {
+          "package_name": "in.busflix.sbiautomatemanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482312117677-q5spmkpfaeb2iupf2tna9tikprnpso7p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYrOapgMZDYgM1uenDIZ4b4tWHrSC4YtU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

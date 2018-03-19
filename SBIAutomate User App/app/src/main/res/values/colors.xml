@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#280071</color>
+    <color name="colorPrimaryDark">#7b7b7b</color>
+    <color name="colorPrimaryRealDark">#1a082f</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorAccent">#00a9e0</color>
+    <color name="colorLightBlue">#79a4b3</color>
+    <color name="AppBackground">#f2f2f2</color>
+    <color name="ContainerBackground">#eaeaea</color>
+    <color name="LightGray">#ededed</color>
+    <color name="DarkerGray">#939393</color>
+    <color name="deselected_color">#c2c2c2</color>
+    <color name="deselected_font_color">#FFFFFF</color>
+    <color name="selected_color">#280071</color>
+    <color name="selected_font_color">#FFFFFF</color>
+    <color name="color_transparent">#00ffffff</color>
+    <color name="colorButtonPressed">#180043</color>
+    <color name="colorButtonPressedLight">#467348</color>
+    <color name="highlightColor">#d55900fa</color>
+    <color name="colorGreen">#59ac4c</color>
+</resources>

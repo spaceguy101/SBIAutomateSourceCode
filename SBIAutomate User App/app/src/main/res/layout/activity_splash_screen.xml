@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="spnetworking.sbiautomate.SplashScreen"
+    android:background="@drawable/splash_background">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/logo_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/outline_image_bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/outline_image_top">
+
+        <ImageView
+            android:id="@+id/ivSBILogo"
+            android:layout_width="@dimen/_135sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:background="@drawable/sbilogo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/ivAutomate"
+            android:layout_width="@dimen/_275sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_sbi_head"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivSBILogo" />
+    </android.support.constraint.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/outline_image_top"
+        android:layout_width="@dimen/_275sdp"
+        android:layout_height="@dimen/_140sdp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_ex_design"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/outline_image_bottom"
+        android:layout_width="@dimen/_305sdp"
+        android:layout_height="@dimen/_120sdp"
+        android:background="@drawable/ic_user_experience"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

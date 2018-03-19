@@ -1,0 +1,27 @@
+package spnetworking.sbiautomate;
+
+import android.content.Intent;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.support.v7.widget.CardView;
+import android.view.View;
+import android.widget.Button;
+
+public class Dashboard extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_dashboard);
+
+        CardView schedule_activity = (CardView) findViewById(R.id.schedule_appointment_button);
+
+        schedule_activity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(Dashboard.this, MainActivity.class);
+                Dashboard.this.startActivity(myIntent);
+            }
+        });
+    }
+}
